@@ -8,7 +8,7 @@ import shopping from "@/assets/shopping.png";
 
 export function Header() {
   return (
-    <header className="flex items-center justify-between px-[160px] py-5">
+    <header className="flex items-center justify-between px-4 lg:px-10 xl:px-[160px]  py-5">
       <h2 className="text-3xl text-zinc-800 font-sans">LSML COMPRE AQUI</h2>
       {/*<Image className="b border" src={logo} alt="arrow down" width={100} height={100} />*/}
       <div className="flex items-center gap-6">
