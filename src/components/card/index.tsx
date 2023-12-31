@@ -11,7 +11,7 @@ interface CardProductProps {
 
 export function Card({ image, name, price }: CardProductProps) {
   return (
-    <Link href={"/"} className="flex flex-col bg-white bg-opacity-40 rounded-bl rounded-br backdrop-blur-[20px]">
+    <Link href={"/details"} className="flex flex-col bg-white bg-opacity-40 rounded-bl rounded-br backdrop-blur-[20px]">
       <Image
         className="w-full rounded-tl rounded-tr"
         src={image}
